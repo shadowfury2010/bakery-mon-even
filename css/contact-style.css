@@ -1,0 +1,51 @@
+ /* Contact Us */
+ .email-map {
+    padding: 20px;
+ }
+ .address-heading {
+     text-align: center;
+ }
+
+ .middle-container .email-map {
+    background-image: url(../Images/contact-bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+ }
+ .address-heading {
+     text-align: center;
+ }
+
+ .middle-container .message-row {
+     margin-top: 20px;
+ }
+
+ .middle-container .Address-map-address .btn {
+     background-color: #142d1f;
+     color: #fff;
+ }
+
+ .middle-container .Address-map-address .btn:hover:hover {
+      background-color: #28a745;
+  }
+ iframe {
+     width: 75%;
+     height: 515px;
+ }
+
+ .card {
+     margin: 10px 10px;
+ }
+
+ .card:hover {
+     -webkit-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+     -moz-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+     box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+ }
+
+ iframe:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+}
