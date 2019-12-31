@@ -145,39 +145,35 @@ p {
 
 .card-btn {
     text-align: center;
-} 
+}
+
+.home-cards .btn {
+    background: #1f582c;
+    color: #fff;
+}
 
 .middle-container .home-cards .card-body .card-btn a:hover {
     background: #28a745;
     color: #fff;
 }
 
-.testimonials .testimonial-img {
+.carousel-inner {
+    background-image: url(../Images/veggy-c.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.testimonials .carousel-caption {
-    bottom: 7%;
-}
-.testimonials .carousel-caption h3,
-.testimonials .carousel-caption p {
-    text-align: left;
-}
+/* .testimonials .testimonial-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
-.testimonial-profile-pic, .testimonial-text {
-    text-align: left;
-}
-
-.testimonial-profile-pic {
-    float: left;
-}
-
-.testimonials .testimonial-text {
-    position: relative;
-    margin: 65px;
-    padding-left: 175px;
+.carousel-inner {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
 }
 
 .carousel-caption h2 {
@@ -214,6 +210,9 @@ p {
     background-size: cover;
 }
 
+.chef-spl h2 {
+    color: #880e4f;
+}
 
 .non-veg {
     display: flex;
@@ -233,11 +232,20 @@ p {
     padding: 1rem;
 }
 
+.non-veg .card {
+    width: 23rem;
+}
+
+.veg .card {
+    width: 23rem;
+}
+
 .today-menu .accordion{
     background-image:url(../Images/menu-bg-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 
@@ -245,6 +253,10 @@ p {
     background-color:#142d1f;
     color:white;
     text-align: center;
+ }
+
+ .today-menu h2 {
+     color: #880e4f;
  }
 
  /* Contact Us */
