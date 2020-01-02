@@ -143,6 +143,10 @@ p {
     bottom: 50px;
 }
 
+.home-cards .card {
+    width: 23rem;
+}
+
 .card-btn {
     text-align: center;
 }

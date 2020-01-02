@@ -79,4 +79,19 @@
         padding: 0.8rem;
         margin: auto;
     }
+
+    .home-cards .card {
+        width: 18rem;
+        margin: 1rem auto;
+    }
+
+    /* Map section */
+
+    .Address-map {
+        flex-direction: column;
+    }
+
+    iframe{
+        
+    }
 }
